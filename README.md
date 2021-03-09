@@ -22,7 +22,21 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Coin Flip:
+
+SamGem::Coin.flip #=> "heads"
+
+Playing Card:
+
+SamGem::PlayingCard.draw #=> "Ace of Spades"
+
+Dice Roll:
+
+SamGem::Dice.Roll(number_of_die_to_roll) #=> [1, 5, 3]
+
+Lotto:
+
+SamGem::Lotto.Pick(number_of_numbers_to_generate, highest_possible_number) #=> [1, 27,68, 42, 66, 4]
 
 ## Development
 
